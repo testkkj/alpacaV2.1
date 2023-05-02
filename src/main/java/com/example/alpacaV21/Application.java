@@ -16,6 +16,8 @@ public class Application {
 	}
 	// java 표준 main 함수
 	public static void main(String[] args) {
+		// application.property 에서 이어지는 것 혹은 이런식으로 run 전에 직접 세팅도 가능
+		// System.setProperty("spring.devtools.restart.enabled", "false");
 		SpringApplication.run(Application.class, args);
 	}
 
